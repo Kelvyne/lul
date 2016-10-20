@@ -3,7 +3,7 @@ BOOT_OUTPUT = bin/bootsector.bin
 
 all:
 	mkdir -p $(shell dirname $(BOOT_OUTPUT))
-	nasm -f bin $(SRC) -o $(BOOT_OUTPUT)
+	nasm -I src/ -f bin $(SRC) -o $(BOOT_OUTPUT)
 
 clean:
 	rm -f $(BOOT_OUTPUT)

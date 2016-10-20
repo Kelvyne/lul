@@ -90,3 +90,7 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# OS
+boot/bin/
+.gdbinit
